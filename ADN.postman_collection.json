@@ -1,0 +1,499 @@
+{
+	"info": {
+		"_postman_id": "13157d2b-bb1e-4e8e-bc05-d268bc41bbcb",
+		"name": "ADN",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/auth/register",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "H4bAaRG6DHa1plhDLH2r870808v15S59NdSviJDuKyUdk13dBIA64lpFxRmZkBEN",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "adnan",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "muhamad.adnanrifai@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "password123",
+							"type": "text"
+						},
+						{
+							"key": "password_confirmation",
+							"value": "password123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/auth/login",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "H4bAaRG6DHa1plhDLH2r870808v15S59NdSviJDuKyUdk13dBIA64lpFxRmZkBEN",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "muhamad.adnanrifai@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "password123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/auth/user-profile",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE2NjAxMzc4ODQsImV4cCI6MTY2MDE0MTQ4NCwibmJmIjoxNjYwMTM3ODg0LCJqdGkiOiJpQ05LbEU2TVhNaTJvVFcwIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.m1DH9uKL2mwcDxQpa4C99H7cp8EJp9uF9vL2RkXGg-c",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/user-profile",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"user-profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/auth/product/addProduct/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE2NjAxMzc4ODQsImV4cCI6MTY2MDE0MTQ4NCwibmJmIjoxNjYwMTM3ODg0LCJqdGkiOiJpQ05LbEU2TVhNaTJvVFcwIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.m1DH9uKL2mwcDxQpa4C99H7cp8EJp9uF9vL2RkXGg-c",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "2",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "macbook pro m4",
+							"type": "text"
+						},
+						{
+							"key": "jenis",
+							"value": "laptop",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "10000000",
+							"type": "text"
+						},
+						{
+							"key": "stok",
+							"value": "100",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/product/addProduct/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"product",
+						"addProduct",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/auth/product/deleteProduct/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE2NjAxMzc4ODQsImV4cCI6MTY2MDE0MTQ4NCwibmJmIjoxNjYwMTM3ODg0LCJqdGkiOiJpQ05LbEU2TVhNaTJvVFcwIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.m1DH9uKL2mwcDxQpa4C99H7cp8EJp9uF9vL2RkXGg-c",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "1a",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "jenis",
+							"value": "1b",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "1000",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "stok",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/product/deleteProduct/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"product",
+						"deleteProduct",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/auth/product/productById/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE2NjAxMzc4ODQsImV4cCI6MTY2MDE0MTQ4NCwibmJmIjoxNjYwMTM3ODg0LCJqdGkiOiJpQ05LbEU2TVhNaTJvVFcwIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.m1DH9uKL2mwcDxQpa4C99H7cp8EJp9uF9vL2RkXGg-c",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "1a",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "jenis",
+							"value": "1b",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "1000",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "stok",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/product/productById/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"product",
+						"productById",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/auth/product/listProduct/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE2NjAxMzc4ODQsImV4cCI6MTY2MDE0MTQ4NCwibmJmIjoxNjYwMTM3ODg0LCJqdGkiOiJpQ05LbEU2TVhNaTJvVFcwIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.m1DH9uKL2mwcDxQpa4C99H7cp8EJp9uF9vL2RkXGg-c",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "2",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "macbook pro m4",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "jenis",
+							"value": "laptop",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "10000000",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "stok",
+							"value": "100",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/product/listProduct/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"product",
+						"listProduct",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/api/auth/product/addProduct/",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE2NjAxMzc4ODQsImV4cCI6MTY2MDE0MTQ4NCwibmJmIjoxNjYwMTM3ODg0LCJqdGkiOiJpQ05LbEU2TVhNaTJvVFcwIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.m1DH9uKL2mwcDxQpa4C99H7cp8EJp9uF9vL2RkXGg-c",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "2",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "name",
+							"value": "macbook pro m4",
+							"type": "text"
+						},
+						{
+							"key": "jenis",
+							"value": "laptop",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "10000000",
+							"type": "text"
+						},
+						{
+							"key": "stok",
+							"value": "100",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/auth/product/addProduct/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"auth",
+						"product",
+						"addProduct",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
