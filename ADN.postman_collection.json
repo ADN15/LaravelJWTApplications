@@ -177,8 +177,23 @@
 							"type": "text"
 						},
 						{
-							"key": "jenis",
-							"value": "laptop",
+							"key": "sku",
+							"value": "SKU003",
+							"type": "text"
+						},
+                                                {
+							"key": "brand",
+							"value": "Apple",
+							"type": "text"
+						},
+                                                {
+							"key": "deskripsi",
+							"value": "MBP 2020",
+							"type": "text"
+						},
+                                                {
+							"key": "variasi",
+							"value": "13 inch M1",
 							"type": "text"
 						},
 						{
@@ -244,10 +259,25 @@
 							"disabled": true
 						},
 						{
-							"key": "jenis",
-							"value": "1b",
+							"key": "sku",
+							"value": "SKU001",
 							"type": "text",
 							"disabled": true
+						},
+                                                {
+							"key": "brand",
+							"value": "Apple",
+							"type": "text"
+						},
+                                                {
+							"key": "deskripsi",
+							"value": "MBP 2020",
+							"type": "text"
+						},
+                                                {
+							"key": "variasi",
+							"value": "13 inch M1",
+							"type": "text"
 						},
 						{
 							"key": "price",
@@ -314,10 +344,25 @@
 							"disabled": true
 						},
 						{
-							"key": "jenis",
-							"value": "1b",
+							"key": "sku",
+							"value": "SKU002",
 							"type": "text",
 							"disabled": true
+						},
+                                                {
+							"key": "brand",
+							"value": "Apple",
+							"type": "text"
+						},
+                                                {
+							"key": "deskripsi",
+							"value": "MBP 2020",
+							"type": "text"
+						},
+                                                {
+							"key": "variasi",
+							"value": "13 inch M1",
+							"type": "text"
 						},
 						{
 							"key": "price",
@@ -388,10 +433,25 @@
 							"disabled": true
 						},
 						{
-							"key": "jenis",
-							"value": "laptop",
+							"key": "sku",
+							"value": "SKU001",
 							"type": "text",
 							"disabled": true
+						},
+                                                {
+							"key": "brand",
+							"value": "Apple",
+							"type": "text"
+						},
+                                                {
+							"key": "deskripsi",
+							"value": "MBP 2020",
+							"type": "text"
+						},
+                                                {
+							"key": "variasi",
+							"value": "13 inch M1",
+							"type": "text"
 						},
 						{
 							"key": "price",
@@ -458,8 +518,23 @@
 							"type": "text"
 						},
 						{
-							"key": "jenis",
-							"value": "laptop",
+							"key": "sku",
+							"value": "SKU001",
+							"type": "text"
+						},
+                                                {
+							"key": "brand",
+							"value": "Apple",
+							"type": "text"
+						},
+                                                {
+							"key": "deskripsi",
+							"value": "MBP 2020",
+							"type": "text"
+						},
+                                                {
+							"key": "variasi",
+							"value": "13 inch M1",
 							"type": "text"
 						},
 						{
